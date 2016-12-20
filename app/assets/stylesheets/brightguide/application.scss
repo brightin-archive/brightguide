@@ -1,0 +1,116 @@
+$font: -apple-system, BlinkMacSystemFont, sans-serif;
+
+.styleguide-body {
+  background: #f3f5f7;
+  color: #444;
+}
+
+.styleguide-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.styleguide-heading {
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #111;
+  font-family: $font;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  font-family: $font;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #111;
+  font-family: $font;
+}
+
+p {
+  font-family: $font;
+  margin-bottom: 1em;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.styleguide-card {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.styleguide-card-heading {
+  padding: 30px;
+  border-bottom: 2px solid #f3f5f7;
+}
+
+.styleguide-card-section {
+  padding: 30px;
+  & + & {
+    border-top: 2px solid #f3f5f7;
+  }
+}
+
+
+hr {
+  margin: 1em 0;
+  height: 1px;
+  border: 0;
+  background: #f3f5f7;
+}
+
+.styleguide-example {
+  border: 3px solid #f3f5f7;
+  margin-bottom: 1em;
+
+  > div {
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  > pre {
+    padding: 20px;
+    background: #f3f5f7;
+    font: 14px / 18px Menlo, Monaco, monospace;
+    overflow-y: auto;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.styleguide-card-folder {
+  font-family: $font;
+  color: #97a3a9;
+  float: right;
+}
+
+code {
+  font: 14px / 14px Menlo, Monaco, monospace;
+  background: #f3f5f7;
+  color: #096eda;
+  display: inline-block;
+  padding: 4px;
+}
+
+.example-square {
+  background: #24b198;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.example-square-2 {
+  width: 100%;
+  height: 100%;
+  background: #154eb5;
+}

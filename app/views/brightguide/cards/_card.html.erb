@@ -1,0 +1,11 @@
+<div class="styleguide-card">
+  <div class="styleguide-card-heading">
+    <div class="styleguide-card-folder"><%= card.folder_name %></div>
+    <h1><%= card.name %></h1>
+  </div>
+  <% card.sections.each do |section| %>
+    <div class="styleguide-card-section">
+      <%= render_markdown(section) %>
+    </div>
+  <% end %>
+</div>
