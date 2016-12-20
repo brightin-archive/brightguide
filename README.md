@@ -9,7 +9,7 @@ Add the gem to you're Gemfile:
 gem "brightguide", github: "brighin/brightguide"
 ```
 
-And mount the engine in you're routes.rb:
+And mount the engine in your `routes.rb`:
 
 ```ruby
 mount Brightguide::Engine => "/styleguide"
