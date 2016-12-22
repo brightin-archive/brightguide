@@ -6,7 +6,7 @@ Generate an automatic css styleguide by adding markdown comments to you're css o
 Add the gem to you're Gemfile:
 
 ```ruby
-gem "brightguide", github: "brighin/brightguide"
+gem "brightguide"
 ```
 
 And mount the engine in your `routes.rb`:
