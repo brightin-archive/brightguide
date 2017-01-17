@@ -1,6 +1,6 @@
 # Brightguide
 
-Generate an automatic css styleguide by adding markdown comments to you're css or scss files.
+Generate an automatic css styleguide by adding markdown comments to your css or scss files.
 
 ## Getting started
 Add the gem to you're Gemfile:
